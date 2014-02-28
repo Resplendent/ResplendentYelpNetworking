@@ -1,36 +1,36 @@
 //
-//  NSDictionary+RUYelpBusinessReview.m
+//  NSDictionary+RYNYelpBusinessReview.m
 //  Pineapple
 //
 //  Created by Benjamin Maer on 9/27/13.
 //  Copyright (c) 2013 Pineapple. All rights reserved.
 //
 
-#import "NSDictionary+RUYelpBusinessReview.h"
+#import "NSDictionary+RYNYelpBusinessReview.h"
 
-@implementation NSDictionary (RUYelpBusinessReview)
+@implementation NSDictionary (RYNYelpBusinessReview)
 
--(NSString *)ruYelpBusinessReviewID
+-(NSString *)RYNYelpBusinessReviewID
 {
     return [self objectForKey:@"id"];
 }
 
--(NSNumber *)ruYelpBusinessReviewRating
+-(NSNumber *)RYNYelpBusinessReviewRating
 {
     return [self objectForKey:@"rating"];
 }
 
--(NSString *)ruYelpBusinessReviewExcerpt
+-(NSString *)RYNYelpBusinessReviewExcerpt
 {
     return [self objectForKey:@"excerpt"];
 }
 
--(NSDictionary *)ruYelpBusinessReviewUser
+-(NSDictionary *)RYNYelpBusinessReviewUser
 {
     return [self objectForKey:@"user"];
 }
 
--(NSNumber*)ruYelpBusinessReviewTimeStamp
+-(NSNumber*)RYNYelpBusinessReviewTimeStamp
 {
     return [self objectForKey:@"time_created"];
 }

@@ -1,5 +1,5 @@
 //
-//  NSDictionary+RUYelpBusinessReview.h
+//  NSDictionary+RYNYelpBusinessReview.h
 //  Pineapple
 //
 //  Created by Benjamin Maer on 9/27/13.
@@ -8,12 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (RUYelpBusinessReview)
+@interface NSDictionary (RYNYelpBusinessReview)
 
-@property (nonatomic, readonly) NSString* ruYelpBusinessReviewID;
-@property (nonatomic, readonly) NSNumber* ruYelpBusinessReviewRating;
-@property (nonatomic, readonly) NSString* ruYelpBusinessReviewExcerpt;
-@property (nonatomic, readonly) NSDictionary* ruYelpBusinessReviewUser;
-@property (nonatomic, readonly) NSString* ruYelpBusinessReviewTimeStamp;
+@property (nonatomic, readonly) NSString* RYNYelpBusinessReviewID;
+@property (nonatomic, readonly) NSNumber* RYNYelpBusinessReviewRating;
+@property (nonatomic, readonly) NSString* RYNYelpBusinessReviewExcerpt;
+@property (nonatomic, readonly) NSDictionary* RYNYelpBusinessReviewUser;
+@property (nonatomic, readonly) NSString* RYNYelpBusinessReviewTimeStamp;
 
 @end

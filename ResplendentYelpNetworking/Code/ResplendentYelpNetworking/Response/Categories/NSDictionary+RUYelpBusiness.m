@@ -1,43 +1,43 @@
 //
-//  NSDictionary+RUYelpBusiness.m
+//  NSDictionary+RYNYelpBusiness.m
 //  Pineapple
 //
 //  Created by Benjamin Maer on 9/27/13.
 //  Copyright (c) 2013 Pineapple. All rights reserved.
 //
 
-#import "NSDictionary+RUYelpBusiness.h"
+#import "NSDictionary+RYNYelpBusiness.h"
 
-@implementation NSDictionary (RUYelpBusiness)
+@implementation NSDictionary (RYNYelpBusiness)
 
 #pragma mark - Getters
--(NSString *)ruYelpBusinessUid
+-(NSString *)RYNYelpBusinessUid
 {
     return [self objectForKey:@"id"];
 }
 
--(NSString *)ruYelpBusinessName
+-(NSString *)RYNYelpBusinessName
 {
     return [self objectForKey:@"name"];
 }
 
--(NSString *)ruYelpBusinessUrl
+-(NSString *)RYNYelpBusinessUrl
 {
     return [self objectForKey:@"url"];
 }
 
--(NSString *)ruYelpBusinessImageUrl
+-(NSString *)RYNYelpBusinessImageUrl
 {
     return [self objectForKey:@"image_url"];
 }
 
--(NSNumber *)ruYelpBusinessReviewCount
+-(NSNumber *)RYNYelpBusinessReviewCount
 {
     return [self objectForKey:@"review_count"];
 }
 
 #pragma mark - Only on full business dictionary
--(NSArray *)ruYelpBusinessReviews
+-(NSArray *)RYNYelpBusinessReviews
 {
     return [self objectForKey:@"reviews"];
 }

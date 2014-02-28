@@ -1,5 +1,5 @@
 //
-//  RUYelpBusinessByIdRequestProtocols.h
+//  RYNYelpBusinessByIdRequestProtocols.h
 //  Pineapple
 //
 //  Created by Benjamin Maer on 9/27/13.

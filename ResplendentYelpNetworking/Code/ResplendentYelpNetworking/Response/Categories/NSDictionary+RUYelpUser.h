@@ -1,5 +1,5 @@
 //
-//  NSDictionary+RUYelpUser.h
+//  NSDictionary+RYNYelpUser.h
 //  Pineapple
 //
 //  Created by Benjamin Maer on 9/28/13.
@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (RUYelpUser)
+@interface NSDictionary (RYNYelpUser)
 
-@property (nonatomic, readonly) NSString* ruYelpUserId;
-@property (nonatomic, readonly) NSString* ruYelpUserImageUrl;
-@property (nonatomic, readonly) NSString* ruYelpUserName;
+@property (nonatomic, readonly) NSString* RYNYelpUserId;
+@property (nonatomic, readonly) NSString* RYNYelpUserImageUrl;
+@property (nonatomic, readonly) NSString* RYNYelpUserName;
 
 @end

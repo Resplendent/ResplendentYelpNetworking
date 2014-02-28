@@ -1,26 +1,26 @@
 //
-//  NSDictionary+RUYelpUser.m
+//  NSDictionary+RYNYelpUser.m
 //  Pineapple
 //
 //  Created by Benjamin Maer on 9/28/13.
 //  Copyright (c) 2013 Pineapple. All rights reserved.
 //
 
-#import "NSDictionary+RUYelpUser.h"
+#import "NSDictionary+RYNYelpUser.h"
 
-@implementation NSDictionary (RUYelpUser)
+@implementation NSDictionary (RYNYelpUser)
 
--(NSString *)ruYelpUserId
+-(NSString *)RYNYelpUserId
 {
     return [self objectForKey:@"id"];
 }
 
--(NSString *)ruYelpUserImageUrl
+-(NSString *)RYNYelpUserImageUrl
 {
     return [self objectForKey:@"image_url"];
 }
 
--(NSString *)ruYelpUserName
+-(NSString *)RYNYelpUserName
 {
     return [self objectForKey:@"name"];
 }
